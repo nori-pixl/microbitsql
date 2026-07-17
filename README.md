@@ -1,1 +1,1 @@
-# microbit-SQL
+# microbitsql
