@@ -1,0 +1,21 @@
+{
+    "name": "sql-emulator",
+    "version": "1.0.0",
+    "description": "micro:bit上で動くSQL風データベース・エミュレータ。データロガーを使ってすべての操作を記録・保存します。",
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "target": "microbit",
+    "supportedTargets": [
+        "microbit"
+    ],
+    "dependencies": {
+        "core": "*",
+        "datalogger": "*"
+    }
+}
